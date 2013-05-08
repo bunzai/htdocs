@@ -1,0 +1,7 @@
+<?php 
+
+	include_once 'extras.php';    
+	
+	echo 'Variable $foo has a value of ', $foo, "<br />\n";    
+	echo 'Variable $bar has a value of ', $bar, "<br />\n"; 
+?> 

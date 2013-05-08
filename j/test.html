@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+	<title>Eeste eigen pagina</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+</head>
+	 <style>
+  div {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    border: 1px solid #000;
+  }
+  </style>
+<body>
+	<p>Click anywhere to apply the effect.</p>
+<div></div>
+ 
+<script>
+$('div').hover(function() {
+  $( "div" ).effect( "bounce", "slow" );
+});
+</script>
+</body>

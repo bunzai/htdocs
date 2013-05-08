@@ -1,0 +1,17 @@
+<?php    
+	$i = 1;    
+	while($i<3) {    
+		echo "Count is at $i. <br />";    
+		++$i;    
+	} 
+	?>
+	
+	<?php    
+		$person = array(    'name' => 'Jason',    
+		'age' => 23,    'passion' => 'craft beer'    
+		);    
+		
+		foreach($person as $key => $value) {    
+			echo "His $key is $value. <br />";    
+		} 
+	?>
